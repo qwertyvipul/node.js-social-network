@@ -1,0 +1,35 @@
+{
+  "name": "node.js-social-network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thevipulsharma/node.js-social-network.git"
+  },
+  "author": "Vipul Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thevipulsharma/node.js-social-network/issues"
+  },
+  "homepage": "https://github.com/thevipulsharma/node.js-social-network#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.2",
+    "mysql": "^2.16.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
